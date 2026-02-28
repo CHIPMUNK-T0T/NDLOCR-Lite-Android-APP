@@ -1,0 +1,20 @@
+venv/
+ndlocr-lite/
+
+
+# *.md
+app_plan.md
+blog_memo.md
+blog_contents.md
+
+# Android app artifacts (main_app)
+main_app/.gradle/
+main_app/.idea/
+main_app/build/
+main_app/**/build/
+main_app/.cxx/
+main_app/.externalNativeBuild/
+main_app/local.properties
+main_app/captures/
+main_app/*.hprof
+main_app/**/*.iml

@@ -1,0 +1,20 @@
+* text=auto
+
+# Source files: keep LF for stable diffs across platforms.
+*.kt text eol=lf
+*.kts text eol=lf
+*.java text eol=lf
+*.py text eol=lf
+*.xml text eol=lf
+*.md text eol=lf
+*.gradle text eol=lf
+*.properties text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+
+# Windows scripts should remain CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
